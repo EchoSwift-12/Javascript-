@@ -28,5 +28,17 @@ let age = 18
 console.log(age)  //18
 
 const myName = "Amtul"  //Amtul(forgetting to add "")
-console.log(myName)
+// console.log(myName)
+
+// Array
+
+let arr = [1, 20, "John", "good"]
+console.log(arr)
+
+let integerArray = [2, 5, 7, 9, 11]
+
+console.log(integerArray.length)
+console.log(integerArray[2])
+console.log(integerArray[1])
+console.log(integerArray[integerArray.length - 1])
 
