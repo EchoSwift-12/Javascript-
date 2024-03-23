@@ -25,7 +25,7 @@ let nullvalue = null
 // Task'16
 
 let age = 18
-console.log(age)  //18
+// console.log(age)  //18
 
 const myName = "Amtul"  //Amtul(forgetting to add "")
 // console.log(myName)
