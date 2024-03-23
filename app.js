@@ -33,7 +33,7 @@ const myName = "Amtul"  //Amtul(forgetting to add "")
 // Array
 
 let arr = [1, 20, "John", "good"]
-console.log(arr)
+// console.log(arr)
 
 let integerArray = [2, 5, 7, 9, 11]
 
@@ -47,15 +47,39 @@ let integerArray = [2, 5, 7, 9, 11]
 let person =
 {
     Name:
-       {
-        firstName: 'Alica' ,
+    {
+        firstName: 'Alica',
         lastName: 'Ben'
-       },
-       age: 25,
-       city: 'hyderabad'
+    },
+    age: 25,
+    city: 'hyderabad'
 }
 
-console.log(person)
+// console.log(person)
+
+// Arrays in Objects
+
+const student =
+{
+    Name: "BenTen",
+    Age: 6,
+    Courses:
+        [
+            {
+                CourseName: "JS",
+                CourseCredits: 3
+            },
+            {
+                CourseName: "MERN",
+                CourseCredits: 4
+            }
+        ]
+}
+
+console.log(student.Courses)
+console.log(student.Courses[0])
+console.log(student.Courses[0].CourseName)
+
 
 
 
