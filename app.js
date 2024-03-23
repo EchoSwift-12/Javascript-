@@ -37,8 +37,26 @@ console.log(arr)
 
 let integerArray = [2, 5, 7, 9, 11]
 
-console.log(integerArray.length)
-console.log(integerArray[2])
-console.log(integerArray[1])
-console.log(integerArray[integerArray.length - 1])
+// console.log(integerArray.length)
+// console.log(integerArray[2])
+// console.log(integerArray[1])
+// console.log(integerArray[integerArray.length - 1])
+
+// Objects
+
+let person =
+{
+    Name:
+       {
+        firstName: 'Alica' ,
+        lastName: 'Ben'
+       },
+       age: 25,
+       city: 'hyderabad'
+}
+
+console.log(person)
+
+
+
 
