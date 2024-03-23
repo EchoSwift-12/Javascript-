@@ -76,9 +76,16 @@ const student =
         ]
 }
 
-console.log(student.Courses)
-console.log(student.Courses[0])
-console.log(student.Courses[0].CourseName)
+// console.log(student.Courses)
+// console.log(student.Courses[0])
+// console.log(student.Courses[0].CourseName)
+
+//  Template Strings
+
+let myNamenew = "Sam"
+
+console.log(`Hello ${myNamenew}!`)
+
 
 
 
