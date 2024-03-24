@@ -100,13 +100,23 @@ let myNamenew = "Sam"
 let a=7
 let b=3
 
-console.log(a+b)
-console.log(a-b)
-console.log(a*b)
-console.log(a/b)
-console.log(a%b)
+//console.log(a+b)
+// console.log(a-b)
+// console.log(a*b)
+// console.log(a/b)
+// console.log(a%b)
 a++
-console.log(a)
+// console.log(a)
 b--
-console.log(b)
+// console.log(b) 
+
+// -------------Comparators-------------
+
+// console.log(3<4)
+// console.log(3>4)
+// console.log(3<=4)
+// console.log(3>=4)
+// console.log(3<=3)
+// console.log(3=='3')//TRUE
+// console.log(3==='3')//FALSE compares the data types also
 
