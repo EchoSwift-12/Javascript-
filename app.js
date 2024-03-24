@@ -142,17 +142,33 @@ else if (weatherCondition === "Sunny") {
 }
 // -------------Ternary Operator-------------
 
-let result = (20<50)? true:false
+let result = (20 < 50) ? true : false
 // console.log(result)
 
-let message  = (0>99)? "Yes":"No"
+let message = (0 > 99) ? "Yes" : "No"
 // console.log(message)
 
-let Result =(3>5)
+let Result = (3 > 5)
 console.log(Result)
 // Result ? console.log("Result is right"):console.log("Result is wrong")
 
-    
+// -------------Task-------------
+
+const Age = prompt("enter age: ")
+
+if (Age > 60) {
+    console.log("Senoir Citizen")
+}
+else if (Age < 18) {
+    console.log("Minor")
+}
+else {
+    console.log("Adult")
+}
+
+
+
+
 
 
 
