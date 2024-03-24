@@ -126,17 +126,33 @@ let weatherCondition = "Sunny"
 let subCondition = "Too Hot"
 
 if (weatherCondition === "Cloudy") {
-    console.log("Take the Umbrella")
+    // console.log("Take the Umbrella")
 
 }
 else if (weatherCondition === "Rainy") {
-    console.log("Use the Umbrella")
+    // console.log("Use the Umbrella")
 }
 else if (weatherCondition === "Sunny") {
     if (subCondition === "Too Hot") {
-        console.log("Use the Umbrella")
+        // console.log("Use the Umbrella")
     }
     else {
-        console.log("Don't Use the Umbrella")
+        // console.log("Don't Use the Umbrella")
     }
 }
+// -------------Ternary Operator-------------
+
+let result = (20<50)? true:false
+// console.log(result)
+
+let message  = (0>99)? "Yes":"No"
+// console.log(message)
+
+let Result =(3>5)
+console.log(Result)
+// Result ? console.log("Result is right"):console.log("Result is wrong")
+
+    
+
+
+
