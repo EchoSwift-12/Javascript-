@@ -1,4 +1,4 @@
-// Identifiers - let, const & console.log
+//------------- Identifiers - let, const & console.log-------------
 
 // const Myname = "Sadiya"
 
@@ -13,7 +13,7 @@ num = 10
 // console.log(num)
 
 
-// Data types
+// -------------Data types-------------
 
 // let myNum;
 // console.log(myNum)
@@ -30,7 +30,7 @@ let age = 18
 const myName = "Amtul"  //Amtul(forgetting to add "")
 // console.log(myName)
 
-// Array
+// -------------Array-------------
 
 let arr = [1, 20, "John", "good"]
 // console.log(arr)
@@ -42,7 +42,7 @@ let integerArray = [2, 5, 7, 9, 11]
 // console.log(integerArray[1])
 // console.log(integerArray[integerArray.length - 1])
 
-// Objects
+// -------------Objects-------------
 
 let person =
 {
@@ -57,11 +57,11 @@ let person =
 
 // console.log(person)
 
-// Arrays in Objects
+// -------------Arrays in Objects-------------
 
 const student =
 {
-    Name: "BenTen",
+    Name: "Ben10",
     Age: 6,
     Courses:
         [
@@ -80,14 +80,33 @@ const student =
 // console.log(student.Courses[0])
 // console.log(student.Courses[0].CourseName)
 
-//  Template Strings
+//  -------------Template Strings-------------
 
 let myNamenew = "Sam"
 
-console.log(`Hello ${myNamenew}!`)
+// console.log(`Hello ${myNamenew}!`)
 
 
+// ------------- Prompt & Alert-------------
 
+//  const username = prompt('Enter your username: ')
+   
+// // console.log(username)
+       
+// alert(`Hello, ${username}`)
 
+// -------------Operators-------------
 
+let a=7
+let b=3
+
+console.log(a+b)
+console.log(a-b)
+console.log(a*b)
+console.log(a/b)
+console.log(a%b)
+a++
+console.log(a)
+b--
+console.log(b)
 
