@@ -90,15 +90,15 @@ let myNamenew = "Sam"
 // ------------- Prompt & Alert-------------
 
 //  const username = prompt('Enter your username: ')
-   
+
 // // console.log(username)
-       
+
 // alert(`Hello, ${username}`)
 
 // -------------Operators-------------
 
-let a=7
-let b=3
+let a = 7
+let b = 3
 
 //console.log(a+b)
 // console.log(a-b)
@@ -120,3 +120,23 @@ b--
 // console.log(3=='3')//TRUE
 // console.log(3==='3')//FALSE compares the data types also
 
+// -------------Conditionals-------------
+
+let weatherCondition = "Sunny"
+let subCondition = "Too Hot"
+
+if (weatherCondition === "Cloudy") {
+    console.log("Take the Umbrella")
+
+}
+else if (weatherCondition === "Rainy") {
+    console.log("Use the Umbrella")
+}
+else if (weatherCondition === "Sunny") {
+    if (subCondition === "Too Hot") {
+        console.log("Use the Umbrella")
+    }
+    else {
+        console.log("Don't Use the Umbrella")
+    }
+}
