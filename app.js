@@ -215,14 +215,28 @@
 
 
 
-let rand = Math.random()// this will generate a number between 0 and 1
-console.log(rand)
+// let rand = Math.random()// this will generate a number between 0 and 1
+// console.log(rand)
 
-while (rand > 0.5) {
-    console.log('the number is greater than 0.5')
-    rand = Math.random() // Update the rand variable inside the loop to get a new random number
-    console.log(rand)
+// while (rand > 0.5) {
+//     console.log('the number is greater than 0.5')
+//     rand = Math.random() // Update the rand variable inside the loop to get a new random number
+//     console.log(rand)
+// }
+
+// task---(factorial of a number)
+let n = prompt('Enter a Number:')
+console.log(n)
+let fact =1
+
+for (i = 1; i <= n; i++) {
+    fact = fact * i
 }
+console.log(fact)
+
+
+
+
 
 
 
