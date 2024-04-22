@@ -248,22 +248,33 @@
 //  console.log("puma")
 
 
-const consolelogfn = () => {
-    console.log("this is a console.log statement")
+// const consolelogfn = () => {
+//     console.log("this is a console.log statement")
+
+// }
+
+// const returnValuefn = () => {
+//     return " this is a return statement "
+// }
+
+// consolelogfn()
+
+// let returnValue = returnValuefn()
+
+// //***/ returnValue = this is a return statement
+
+// console.log(returnValue)
+
+
+// ----Early return -----
+const fun = () => {
+    console.log('1')
+    return true
+    console.log('2')
 
 }
-
-const returnValuefn = () => {
-    return " this is a return statement "
-}
-
-consolelogfn()
-
-let returnValue = returnValuefn()
-
-// returnValue = this is a return statement
-
-console.log(returnValue)
+fun()
+console.log(fun())
 
 
 
