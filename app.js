@@ -225,16 +225,45 @@
 // }
 
 // task---(factorial of a number)
-let n = prompt('Enter a Number:')
-console.log(n)
-let fact =1
+// let n = prompt('Enter a Number:')
+// console.log(n)
+// let fact =1
 
-for (i = 1; i <= n; i++) {
-    fact = fact * i
+// for (i = 1; i <= n; i++) {
+//     fact = fact * i
+// }
+// console.log(fact)
+
+// ------------*FUNCTIONS*--------------
+
+// const printNAME = (name) => {
+//     console.log(name)
+// }
+
+// printNAME('sam')
+
+// const printNameNew = (name) => {
+// console.log("name")
+// }
+//  console.log("puma")
+
+
+const consolelogfn = () => {
+    console.log("this is a console.log statement")
+
 }
-console.log(fact)
 
+const returnValuefn = () => {
+    return " this is a return statement "
+}
 
+consolelogfn()
+
+let returnValue = returnValuefn()
+
+// returnValue = this is a return statement
+
+console.log(returnValue)
 
 
 
