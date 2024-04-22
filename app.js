@@ -267,14 +267,63 @@
 
 
 // ----Early return -----
-const fun = () => {
-    console.log('1')
-    return true
-    console.log('2')
+// const fun = () => {
+//     console.log('1')
+//     return true
+//     console.log('2')
 
+// }
+// console.log(fun())
+
+// task 1 using arrow function--------
+
+// const printLenght = () => {
+// const username = prompt('enter your name')
+// console.log(username.length)
+// }
+// printLenght() // ***calling the function
+
+// task 2 --------------(returning)
+
+const sumFun = (a, b) => {
+    return a + b
 }
-fun()
-console.log(fun())
+
+// console.log(sumFun(5, 4))
+
+//********* */ CALLBACK FUNCTION ********
+// functions which are parameters of other functions
+// const cFun = () => {
+//     console.log("sum printed")
+// }
+
+// const pfun = (x, y, fun) =>{
+// console.log(x+y)
+// fun()
+// }
+
+// pfun(5,4,cFun)
+
+// task callback function
+
+const printAge = (age) => {
+    console.log(age)
+}
+
+const isageOdd = (age, callBack) => {
+    if (age % 2 !== 0) {
+        callBack(age)
+    }
+    else{
+        console.log("even")
+    }
+}
+isageOdd(4, printAge)
+isageOdd(5, printAge)
+
+
+
+
 
 
 
