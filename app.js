@@ -306,23 +306,30 @@ const sumFun = (a, b) => {
 
 // task callback function
 
-const printAge = (age) => {
-    console.log(age)
+// const printAge = (age) => {
+//     console.log(age)
+// }
+
+// const isageOdd = (age, callBack) => {
+//     if (age % 2 !== 0) {
+//         callBack(age)
+//     }
+//     else {
+//         console.log("even")
+//     }
+// }
+// isageOdd(4, printAge)
+// isageOdd(5, printAge)
+
+
+  let j = 9 // =>>global scoped 
+if (true) {
+    const k = 5  //=>> local scoped --bolock scoped
+    console.log(k)
+    console.log(j)
 }
 
-const isageOdd = (age, callBack) => {
-    if (age % 2 !== 0) {
-        callBack(age)
-    }
-    else{
-        console.log("even")
-    }
-}
-isageOdd(4, printAge)
-isageOdd(5, printAge)
-
-
-
+console.log(k) 
 
 
 
