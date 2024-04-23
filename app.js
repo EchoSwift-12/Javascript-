@@ -322,14 +322,70 @@ const sumFun = (a, b) => {
 // isageOdd(5, printAge)
 
 
-  let j = 9 // =>>global scoped 
-if (true) {
-    const k = 5  //=>> local scoped --bolock scoped
-    console.log(k)
-    console.log(j)
-}
+//   let j = 9 // =>>global scoped 
+// if (true) {
+//     const k = 5  //=>> local scoped --bolock scoped
+//     console.log(k)
+//     console.log(j)
+// }
 
-console.log(k) 
+// console.log(k) 
+
+// **ASSIGNMENT**
+1. BASIC FUNCTION CREATION
+
+const greet =(name) =>{
+    console.log(`Hello, ${name}`)
+}
+greet("Alice")
+
+2. Temperature Conversion
+
+ const celsiusToFahrenheit =( tempCelcius)=>{
+    console.log(tempCelcius*(9/5) + 32)
+ }
+ celsiusToFahrenheit(40)
+
+//  3.Even or Odd Checker
+
+const isEven =(positiveInt) =>{
+    if (positiveInt%2== 0)
+    {
+        return true
+    }
+    else{
+        return false
+    }
+
+}
+ console.log(isEven(6))
+
+4. Factorial Calculator
+i
+const factorial = (int) => {
+    let fact = 1
+    for (i = 1; i <= int ; i++) {
+        fact = fact * i
+
+    }
+    return fact
+
+}
+console.log(factorial(4))
+
+without return stmt
+
+ii
+
+const factorial=(int)=>{
+    let fact =1
+    for (i=1; i<=int; i++)
+    {
+        fact=fact*i
+    }
+    console.log(fact)
+}
+factorial(4)
 
 
 
